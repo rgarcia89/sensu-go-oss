@@ -1,6 +1,6 @@
 FROM golang:latest AS builder
 
-ENV SENSU_VERSION=5.20.2
+ENV SENSU_VERSION=5.21.0
 ENV GOOS="linux"
 ENV GOARCH="amd64"
 ENV CGO_ENABLED="0"
